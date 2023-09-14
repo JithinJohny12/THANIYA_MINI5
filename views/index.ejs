@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="box">
-        <h1>To Do List</h1>
+        <h1>My To Do List</h1>
         <% for(var i=0; i < tasks.length; i++){ %>
             <div class="item">
                 <input type="checkbox" name="checkbox" class="task-checkbox" id="check<%= i %>">
@@ -17,7 +17,7 @@
         <% } %>
         <div class="box">
             <form class="item" action="/" method="post">
-                <input type="text" name="task" placeholder="input your task">
+                <input type="text" name="task" placeholder="What task do you have today?">
                 <button type="submit">+</button>
             </form>
         </div>
