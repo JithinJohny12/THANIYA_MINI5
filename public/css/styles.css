@@ -1,6 +1,6 @@
 html {
   background-color: #E4E9FD;
-  background-image: -webkit-linear-gradient(65deg, #019ea3 50%, #4d4d4a 50%);
+ background: linear-gradient(75deg, #97FEED,#E11299);
   min-height: 1000px;
   font-family: 'helvetica neue';
 }
@@ -25,7 +25,7 @@ h1 {
 .box {
   max-width: 400px;
   margin: 50px auto;
-  background: rgb(101, 101, 101);
+  background: #F7F5EB;
   border-radius: 5px;
   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
